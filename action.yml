@@ -1,0 +1,16 @@
+name: Baka's website Action
+description: 自动将静态网站部署到 GitHub Pages
+author: baka
+branding:
+  icon: upload-cloud
+  color: blue
+inputs:
+  build_dir:
+    description: 构建产物目录（例如 dist 或 public）
+    required: true
+  token:
+    description: GitHub Token（通常用 secrets.GITHUB_TOKEN）
+    required: true
+runs:
+  using: node20
+  main: index.js

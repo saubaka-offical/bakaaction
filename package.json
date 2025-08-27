@@ -1,0 +1,12 @@
+{
+    "name": "Baka's website Action",
+    "version": "1.0.0",
+    "description": "自动部署静态网站到 GitHub Pages 的 Action",
+    "main": "index.js",
+    "scripts": {},
+    "dependencies": {
+      "@actions/core": "^1.10.0",
+      "@actions/exec": "^1.1.1"
+    }
+  }
+  
